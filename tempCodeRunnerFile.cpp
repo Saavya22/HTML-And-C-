@@ -1,1 +1,1 @@
-cout<<sum;
+ int sum = 0;
