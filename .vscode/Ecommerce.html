@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Web Page</title>
+  <style>
+    
+    *{margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    body{
+      background:#000000;}
+      .navbar{
+      background:#000102;
+      color:rgb(5, 247, 255);
+      height:60px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 20px;
+    }
+    .logo{font-size:24px;
+        font-weight:bold;
+      color:#2f0ab8;
+    }
+    .search{
+        display:flex;
+      width:50%;
+    }
+
+    
+    
+    
+    .search input{
+      width:100%;
+      padding:8px;
+      border:none;
+    }
+    .search button{padding:8px 15px;
+      border:none;
+      background:#2542e9;
+      cursor:pointer;
+    }
+    .menu{
+      display:flex;
+      gap:20px;
+      font-size:14px;
+    }
+    .hero{
+      height:300px;
+      background:url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f') no-repeat center/cover;
+      display:flex;
+      align-items:flex-end;
+      justify-content:center;
+    }
+    .hero-text{
+      background:rgb(162, 18, 219);
+      padding:10px 20px;
+      margin-bottom:20px;
+      font-size:14px;
+    }
+    .products{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+      padding:20px;
+    }
+    .box{
+      background:rgb(137, 21, 214);
+      padding:15px;
+    }
+    .box h3{
+      margin-bottom:10px;
+    }
+    .box img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+    .box a{
+      display:inline-block;
+      margin-top:10px;
+      color:#007185;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+  
+    footer{
+      background:#033a7e;
+      color:rgb(34, 8, 151);
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="navbar">
+    <div class="logo">   ONE STORE</div>
+    <div class="   search">
+      <input type="text" placeholder="Search One store">
+      <button>Search</button>
+    </div>
+    <div class="menu">
+      <div>creat account</div>
+      <div>Orders</div>
+      <div>Cart</div>
+      <div>log out</div>
+     
+    </div>
+  </div>
+  <div class="hero">
+    <div class="hero-text">Welcome to One Store – Shop online for best deals</div>
+  </div>
+
+  
+  <div class="products">
+    <div class="box">
+      <h3>Fashion</h3>
+      <img src="https://images.unsplash.com/photo-1521334884684-d80222895322">
+      <a href="#">See more</a>
+    </div>
+
+    <div class="box">
+      <h3>Electronics</h3>
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+      <a href="#">See more</a>
+    </div>
+
+    <div class="box">
+      <h3>Home & Kitchen</h3>
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+      <a href="#">See more</a>
+    </div>
+
+    <div class="box">
+      <h3>Beauty</h3>
+      <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df">
+      <a href="#">See more</a>
+    </div>
+  </div>
+  <div class="products">
+  <div class="box">
+      <h3>400 MY25 Bike</h3>
+      <img src="https://m.media-amazon.com/images/I/71zKnIsrqML._AC_SY200_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3> 160R 4V Fi (DSCS) Bike</h3>
+      <img src="https://m.media-amazon.com/images/I/61BLhBS-1tL._AC_SY200_.jpg">
+      <a href="#">See more</a>
+    </div>
+
+  <div class="box">
+      <h5> HARLEY-DAVIDSON X440 Vivid Motorcycle 440cc Metallic Thick Red booking for Ex-Showroom</h5>
+      <img src="https://m.media-amazon.com/images/I/71V61d8jm9L._AC_SY200_.jpg">
+      <a href="#">See more</a>
+    </div>
+    </div>
+<div class="products">
+  <div class="box">
+      <h3> Up to 60% off | Best offers on kitchen products</h3>
+      <img src="https://m.media-amazon.com/images/I/61-6yDuvBxL._AC_SY175_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3> hago Refrigerator Organizer Container with 6 Grid Compartments</h3>
+      <img src="https://m.media-amazon.com/images/I/71QED8-OFhL._AC_SY175_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>Starting ₹199 | Bring joy home with every toy </h3>
+      <img src="https://m.media-amazon.com/images/I/61VhYeJyuaL._AC_SY175_.jpg">
+      <a href="#">See more</a>
+    </div>
+
+  <div class="box">
+      <h3> Keep shopping for</h3>
+      <img src="https://m.media-amazon.com/images/I/712Aj9O8wGL._AC_SY175_.jpg">
+      <a href="#">See more</a>
+    </div>
+
+  <div class="box">
+      <h3>Magic SOAP at just Rs199 </h3>
+      <img src="https://m.media-amazon.com/images/I/71cseSChxxL._AC_SY170_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>Up to 60% off | Curated kitchen products  </h3>
+      <img src="https://m.media-amazon.com/images/I/71MXSFRW87L._AC_SY175_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>Electric Instant Egg Boiler</h3>
+      <img src="https://m.media-amazon.com/images/I/61afQVm2weL._AC_SY200_.jpg">
+    </div>
+  <div class="box">
+      <h3>Orient Electric Heater </h3>
+      <img src="https://m.media-amazon.com/images/I/71QfC+NELFL._AC_SY170_.jpg">
+      <a href="#">See more</a>
+    </div>
+
+  <div class="box">
+      <h3> Car Cliner</h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg">
+      <a href="#">See more</a>
+    </div>
+
+  <div class="box">
+      <h3> Odonil</h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Wipes_low_res_V1._SY116_CB549138744_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>Huggies Complete Comfort </h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/PB/GW/PC/PC_QC_372x232_Life-Style_2_1x._SY116_CB788857785_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>KLOSIA Women's </h3>
+      <img src="https://m.media-amazon.com/images/I/71I53evweVL._AC_SY200_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3>Lymio Jackets </h3>
+      <img src="https://m.media-amazon.com/images/I/619xMvtqClL._AC_SY200_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3> toys</h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/PB/GW/PC/PC_QC_372x232_Life-Style_3_1x._SY116_CB788857785_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3> Halmet </h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg">
+      <a href="#">See more</a>
+    </div>
+  <div class="box">
+      <h3> Winter Cap </h3>
+      <img src="https://m.media-amazon.com/images/I/71OAvZWN00L._SX679_.jpg">
+      <a href="#">See more</a>
+    </div>
+    <div class="box">
+      <h3>SWAGR  </h3>
+      <p>SWAGR 12 Pairs Sports Cotton Ankle Length Socks
+         for Men, Pack of 12., Assorted</p>
+         <img src="https://m.media-amazon.com/images/I/81biKixsaDL._SY741_.jpg">
+      <a href="#">See more</a>
+    </div>
+    <div class="box">
+      <h3> MRF bat</h3>
+      <img src="https://images-eu.ssl-images-amazon.com/images/I/7163Wu1XeXL._AC_UL165_SR165,165_.jpg">
+      <a href="#">See more</a>
+    </div>
+  </div>
+
+ 
+  <footer>
+    © 2026 One Store Web Page | Educational Purpose Only <hr>
+
+  </footer>
+  
+
+
+</body>
+</html>
