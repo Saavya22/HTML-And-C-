@@ -1,0 +1,67 @@
+<html>
+<head>
+<title> exp5 </title>
+ </head>
+<body>
+<h1 align="center">Student Registration Form</h1> 
+
+
+  <hr> 
+ 
+    
+<form method="post" action="submit.html"> 
+ <h2 align="center"> 
+   <p align="center"> 
+            <label>Full Name- </label> 
+            <input type="text" name="fullname" placeholder="Enter your full name" required> 
+    </p> 
+<hr>
+ 
+        <p align="center"> 
+            <label>Email- </label> 
+            <input type="email" name="email" placeholder="Enter valid email address" required> 
+        </p> 
+ <hr>
+        <p align="center"> 
+            <label>Password- </label> 
+            <input type="password" name="password" placeholder="Enter password" required> 
+        </p> 
+<hr>
+ 
+        <p align="center"> 
+            <label>Gender- </label> 
+            <input type="radio" name="gender" value="male" required> Male 
+            <input type="radio" name="gender" value="female"> Female 
+         
+        </p> 
+<hr>
+ 
+        <p align="center"> 
+            <label>Course: </label> 
+            <select name="course" required> 
+                <option value="">-- Select Course --</option> 
+                <option value="btech">B.Tech</option> 
+                <option value="bca">BCA</option> 
+               <option value="bba">BBA</option>
+            </select> 
+        </p> 
+ <hr>
+        <p> 
+            <label for="phone">Contact No: (10 digits):</label> 
+            <input type="tel" id="phone" name="contact" placeholder="Enter phone number" required> 
+        </p> 
+ 
+         <hr>
+ 
+        <p align="center"> 
+            <input type="submit" value="Register"> 
+            <input type="reset" value="Clear"> 
+        </p> 
+</h2>
+    </form> 
+ 
+    <hr> 
+    
+ 
+</body> 
+</html>
